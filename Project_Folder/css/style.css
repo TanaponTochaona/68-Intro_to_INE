@@ -1,0 +1,94 @@
+h1{
+    text-align: center;
+    color: black;
+}
+
+
+
+table,th,tr,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+}
+.Profiletable{
+    border-spacing: 10px;
+    border-radius: 10px ;
+}
+.margin25{
+    margin-top: 25px;
+}
+.tbwid{
+    background-color:#ddd;
+    padding: 10px;
+    width: 15%;
+}
+.subject{
+    background-color: #ddd;
+    width: 40%;
+}
+
+.subtdpad{
+    text-align: left;
+    padding-left: 25px;
+}
+.tdpad{
+    padding: 10px;
+}
+.greycolor{
+    background-color: #ddd;
+}
+.textbold{
+    font-weight: bold;}
+
+.containImg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    /* float:left; */
+    width: 180px;
+}
+.gallery:hover{
+    border: 1px solid #777;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+
+.topnav{
+    background-color:aquamarine;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active{
+    background-color:#04AA6D;
+    color: white;
+}
+.topnav .rightnav{
+    float: right;
+    background-color:aquamarine;
+    
+}
