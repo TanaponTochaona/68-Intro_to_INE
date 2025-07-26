@@ -1,21 +1,46 @@
-h1{
+h1,h2,h3,h4,h5,h6{
     text-align: center;
     color: black;
 }
 
+h3,h2{
+ letter-spacing: 2px;
+}
+.underline{
+text-decoration: underline;
+}
+.itim {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.font{
+    font-size:large;
+    color: rgb(202, 71, 71);
+}
+.con{
+    
+    background-color:antiquewhite;
 
-
+}
 table,th,tr,td{
     border-collapse: collapse;
     border: 1px solid black;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .Profiletable{
-    border-spacing: 10px;
-    border-radius: 10px ;
+    width:50%;
+    font-size: 1.5rem;
+    background-color: white;
+    
 }
 .margin25{
     margin-top: 25px;
+}
+.tdpro{
+    padding: 10px;
+    background-color: #ddd;
 }
 .tbwid{
     background-color:#ddd;
@@ -30,8 +55,10 @@ table,th,tr,td{
 .subtdpad{
     text-align: left;
     padding-left: 25px;
+    background-color: white;
 }
 .tdpad{
+    background-color: white;
     padding: 10px;
 }
 .greycolor{
@@ -50,6 +77,7 @@ table,th,tr,td{
     border: 1px solid #ccc;
     /* float:left; */
     width: 180px;
+    background-color: white;
 }
 .gallery:hover{
     border: 1px solid #777;
@@ -59,9 +87,11 @@ table,th,tr,td{
     height: auto;
 }
 .desc{
+    background-color: white;
     padding: 15px;
     text-align: center;
 }
+
 
 .topnav{
     background-color:aquamarine;
@@ -91,4 +121,16 @@ table,th,tr,td{
     float: right;
     background-color:aquamarine;
     
+}
+
+.p1{
+    font-family: "Lucida Console", "Monaco New", monospace;
+    font-size: large;
+}
+.imgINET{
+    width: 25%;
+    border-radius: 20px ;
+}
+.mid{
+    justify-self:center;
 }
