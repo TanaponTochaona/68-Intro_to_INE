@@ -1,0 +1,147 @@
+.head{
+    background-color: crimson;
+    padding : 5%;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.navtop{
+    overflow: hidden;
+    background-color: black;
+    padding-bottom: 5px;
+}
+.navtop a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.navtop a:hover{
+    background-color:rgb(70, 83, 96) ;
+}
+
+/* .navtop a.active{
+    background-color:rgb(70, 83, 96) ;
+} */
+.navtop .navright{
+    float:right;
+}
+.navtop input[type=text] {
+    border-radius: 2px;
+    padding: 7px;
+    margin-top: 8px;
+    font-size: 17px;
+    border:none;
+}
+.navtop .navright button{
+    float: right;
+    padding: 7px;
+   
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 10px ;
+    font-size: 17px;
+    background-color: plum;
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+
+.content{
+    display: grid;
+    grid-template-areas: 
+    'left right'
+    'foot foot ';
+    grid-template-columns: 78% 22%;
+   
+}
+/* .content > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+.content .item1{
+    grid-area: left;
+    background-color: white;
+    
+}
+.content .item1 table {
+    border-collapse: collapse;
+    width: 98%;
+    text-align: left;
+    margin-bottom: 25px;
+    /* margin-right: 25px; */
+}
+.content .item1 table th{
+    border: 2px solid gray;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    
+}
+.content .item1 table tr{
+    border: 2px solid gray;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+.content .item1 table td{
+    border: 2px solid gray ;
+    padding: 10px;
+    color: black;
+    background-color: white;
+}
+.content .item1 table .total{
+    border: 2px solid gray ;
+    padding: 10px;
+    font-weight: bold;
+    color: white;
+    background-color:deeppink;
+    
+}
+.content .item2{
+    grid-area: right;
+    background-color: yellow;
+}
+
+
+.content .item3{
+    grid-area: foot;
+    background-color:deeppink;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+/* .content > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+} */
+
+.sidenav {
+background-color: gray;
+overflow-x: hidden;
+}
+.sidenav a {
+color: white;
+padding: 16px;
+text-decoration: none;
+display: block;
+}
+.sidenav a.active{
+    background-color:rgb(70, 83, 96) ;
+}
+.sidenav a:hover{
+    background-color:rgb(70, 83, 96) ;
+}   
