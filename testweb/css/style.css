@@ -135,6 +135,7 @@
     overflow-x: hidden;
 }
 .sidenav a {
+    background-color:rgb(70, 83, 96) ;
     color: white;
     padding: 16px;
     margin: 16px;
@@ -143,9 +144,9 @@
     text-decoration: none;
     display: block;
     }
-.sidenav a.active{
+/* .sidenav a.active{
     background-color:rgb(70, 83, 96) ;
 }
 .sidenav a:hover{
     background-color:rgb(70, 83, 96) ;
-}   
+}    */
