@@ -1,0 +1,69 @@
+.login-body{
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: url("../Img/Login_background.jpg") no-repeat center center;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+    }
+
+.login-box {
+      background: rgba(255, 255, 255, 0.9); /* สีขาวโปร่งนิดๆ */
+    padding: 40px 20px 20px; /* ด้านบนเผื่อที่วาง logo */
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    position: relative; /* สำคัญ!! เอาไว้เป็นจุดอ้างอิง */
+    width: 600px;
+    text-align: center; 
+    }
+
+.login-box img {
+    width: 150px;
+    
+    border-radius: 50%; /* ถ้าอยากให้เป็นวงกลม */
+    position: absolute;
+    top: -110px;   /* ให้ลอยขึ้นมาครึ่งนึง */
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff; /* ใส่พื้นหลังขาวกันรูปทับ */
+    padding: 5px;
+    }
+
+/* .login-box input {
+      width: 95%;
+      padding: 12px;
+      margin: 10px 0px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    } */
+.login-box .input-group  {
+      padding-left: 50px;
+      padding-right: 50px;
+      font-size: large;
+    } 
+
+.login-box button {
+      width: 30%;
+      padding: 12px;
+      background: #ff6600;
+      border: none;
+      border-radius: 8px;
+      color: white;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+      position: absolute;
+      top: 180px;   /* ให้ลอยขึ้นมาครึ่งนึง */
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+.login-box button:hover {
+      background: #e65c00;
+    }
+
+
+
