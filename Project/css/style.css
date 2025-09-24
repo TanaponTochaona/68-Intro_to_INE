@@ -1,22 +1,27 @@
+/*หน้า Login*/
+/**************************************************************/
 .login-body{
       margin: 0;
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      background: url("../Img/Login_background.jpg") no-repeat center center;
+      background: url("../Img/Login_background.jpg") no-repeat center center ;
       background-size: cover;
       font-family: Arial, sans-serif;
+      
     }
 
 .login-box {
-      background: rgba(255, 255, 255, 0.9); /* สีขาวโปร่งนิดๆ */
-    padding: 40px 20px 20px; /* ด้านบนเผื่อที่วาง logo */
+    background: rgba(217, 217, 217, 1); /* สีขาวโปร่งนิดๆ */
+    padding: 80px 20px 20px; /* ด้านบนเผื่อที่วาง logo */
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0,0,0,0.2);
     position: relative; /* สำคัญ!! เอาไว้เป็นจุดอ้างอิง */
-    width: 600px;
+    width: 550px;
+    height: 275px;
     text-align: center; 
+
     }
 
 .login-box img {
@@ -24,7 +29,7 @@
     
     border-radius: 50%; /* ถ้าอยากให้เป็นวงกลม */
     position: absolute;
-    top: -110px;   /* ให้ลอยขึ้นมาครึ่งนึง */
+    top: -75px;   /* ให้ลอยขึ้นมาครึ่งนึง */
     left: 50%;
     transform: translateX(-50%);
     background: #fff; /* ใส่พื้นหลังขาวกันรูปทับ */
@@ -40,14 +45,18 @@
       font-size: 16px;
     } */
 .login-box .input-group  {
-      padding-left: 50px;
-      padding-right: 50px;
+      padding-left: 40px;
+      padding-right: 40px;
       font-size: large;
-    } 
+      height: 50px;
+    }
+.login-box .input-group .iconful{
+  color: #e65c00;
+}
 
 .login-box button {
       width: 30%;
-      padding: 12px;
+      padding: 12px 12px 12px 12px;
       background: #ff6600;
       border: none;
       border-radius: 8px;
@@ -56,7 +65,7 @@
       cursor: pointer;
       transition: 0.3s;
       position: absolute;
-      top: 180px;   /* ให้ลอยขึ้นมาครึ่งนึง */
+      top: 250px;   /* ให้ลอยขึ้นมาครึ่งนึง */
       left: 50%;
       transform: translateX(-50%);
     }
@@ -65,5 +74,59 @@
       background: #e65c00;
     }
 
-
-
+/***************************************************************************/
+/* content-Control */
+.content {
+  display: grid;
+  grid-template-areas: 
+    "sidebar topnav"
+    "sidebar main";
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 60px auto;
+  height: 100vh;
+}
+/***************************************************************************/
+/*Top Nav*/
+.bac-color{
+  background-color: #DFDFDF;
+}
+.topnav {
+  grid-area: topnav;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+}
+.topnav p,i{
+  float:right;
+  display: block;
+  text-align: center;
+  
+}
+.topnav i {
+  font-size: 30px;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.topnav p {
+  
+  padding-top: 15px;
+  padding-right: 20px;
+}
+/***************************************************************************/
+/* Side Nav */
+.sidenavbar ,h4{
+  grid-area: sidebar;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 20px;
+}
+/***************************************************************************/
+/* maincontent */
+.maincontent {
+  grid-area: main;
+  background-color: #e5e5e5;
+  padding: 20px;
+  overflow-y: auto;
+}
