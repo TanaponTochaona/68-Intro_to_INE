@@ -116,11 +116,18 @@
 }
 /***************************************************************************/
 /* Side Nav */
-.sidenavbar ,h4{
+.sidenavbar {
   grid-area: sidebar;
   background-color: #1f1f1f;
   color: white;
   padding: 20px;
+}
+.sidenavbar h4{
+  grid-area: sidebar;
+  background-color: #1f1f1f;
+  color: white;
+  padding: 20px;
+  text-align: center;
 }
 /***************************************************************************/
 /* maincontent */
